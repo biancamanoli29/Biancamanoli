@@ -308,5 +308,112 @@ h1 {
     <p>Some random sentence. <span class="block">Am I visible? Display: block</span></p>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Example</title>
+    <style>
+        /* Padding and Margin for Divs */
+        .box {
+            width: 200px;
+            height: 100px;
+            background-color: lightblue;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        /* Image Filters */
+        .filtered-image {
+            filter: grayscale(50%);
+        }
+
+        /* CSS Grid */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        /* CSS Flexbox */
+        .flex-container {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        /* Visibility Property */
+        .hidden {
+            visibility: hidden;
+        }
+
+        /* Opacity Property */
+        .op_1 {
+            opacity: 1;
+        }
+
+        .op_0 {
+            opacity: 0;
+        }
+
+        .op_05 {
+            opacity: 0.5;
+        }
+
+        /* Display Property */
+        .none {
+            display: none;
+        }
+
+        .inline {
+            display: inline;
+        }
+
+        .block {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Padding and Margin for Divs -->
+    <div class="box">Div with Padding and Margin</div>
+
+    <!-- Image Filters -->
+    <img src="your-image.jpg" alt="Filtered Image" class="filtered-image">
+
+    <!-- CSS Grid -->
+    <div class="grid-container">
+        <div>Grid Item 1</div>
+        <div>Grid Item 2</div>
+        <div>Grid Item 3</div>
+    </div>
+
+    <!-- CSS Flexbox -->
+    <div class="flex-container">
+        <div>Flex Item 1</div>
+        <div>Flex Item 2</div>
+        <div>Flex Item 3</div>
+    </div>
+
+    <!-- Visibility Property -->
+    <h3>Visibility Property</h3>
+    <p class="visible">This is visible.</p>
+    <p class="hidden">This is hidden.</p>
+
+    <!-- Opacity Property -->
+    <h3>Opacity Property</h3>
+    <p class="op_1">Opacity 1</p>
+    <p class="op_0">Opacity 0</p>
+    <p class="op_05">Opacity 0.5</p>
+
+    <!-- Display Property -->
+    <h3>Display Property</h3>
+    <p>Some random sentence. <span class="none">Am I visible? Display: none</span></p>
+    <p>Some random sentence. <span class="inline">Am I visible? Display: inline</span></p>
+    <p>Some random sentence. <span class="block">Am I visible? Display: block</span></p>
+
+</body>
+</html>
 
 
